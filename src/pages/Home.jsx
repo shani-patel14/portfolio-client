@@ -227,7 +227,7 @@ export default function Home() {
           <div className="relative z-10 w-44 h-44 rounded-full bg-gradient-to-br from-emerald-400 to-indigo-400 flex items-center justify-center text-[#0a0a0f] font-extrabold text-5xl shadow-2xl shadow-emerald-500/20">
             <img
              src={myProfile} 
-             alt="Shani's Profile" 
+             alt="" 
              style={imageStyle} />
           </div>
         </div>
