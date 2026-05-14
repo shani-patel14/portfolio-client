@@ -14,20 +14,6 @@ const skills = {
   border: '2px solid #333' 
 };
 
-const experience = [
-  {
-    role:     'Full Stack Developer',
-    company:  'Freelance',
-    period:   '2025 ',
-    desc:     'Built custom web apps for clients using MERN stack.',
-  },
-  {
-    role:     'Frontend Intern',
-    company:  'Tech Company',
-    period:   '2025 – 2025',
-    desc:     'Developed React components and improved UI performance by 40%.',
-  },
-]
 
 export default function About() {
   return (

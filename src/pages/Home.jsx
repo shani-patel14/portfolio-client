@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import myProfile from '../image/profile.jpeg'
-import bgImage from '../image/images.jpeg'
+// import bgImage from '../image/images.jpeg'
 
 const floatingWords = [
   { text: 'MongoDB',    top: '12%',  left: '5%',   delay: '0s'   },
