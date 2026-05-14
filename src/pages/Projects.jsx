@@ -10,7 +10,7 @@ export default function Projects() {
   const [filter, setFilter]       = useState('All')
 
   useEffect(() => {
-    API.get('/api/projects')
+    API.get('/projects')
       .then((res) => setProjects(res.data))
       .catch(() => setError('Failed to load projects.'))
       .finally(() => setLoading(false))
