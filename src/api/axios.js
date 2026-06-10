@@ -8,7 +8,9 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://portfolio-server-2-aeq8.onrender.com/api'
+  baseURL: process.env.REACT_APP_API_URL,
 });
 
 export default API
+
+//'https://portfolio-server-2-aeq8.onrender.com/api'
